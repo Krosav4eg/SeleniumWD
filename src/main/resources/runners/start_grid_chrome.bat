@@ -1,0 +1,2 @@
+@set CHROME=-Dwebdriver.chrome.driver="../driver\chromedriver.exe"
+java %CHROME% -jar ../server\selenium-server-standalone-2.53.0.jar -role node -hub http://localhost:4444/grid/register -nodeConfig ../configurations\chrome_config.json

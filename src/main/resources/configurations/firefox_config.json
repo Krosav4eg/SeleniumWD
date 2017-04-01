@@ -1,0 +1,21 @@
+{
+  "capabilities":
+  [
+    {
+      "browserName": "firefox",
+      "maxInstances": 1,
+      "version": "",
+      "platform": "WINDOWS"
+    }
+  ],
+  "configuration":
+  {
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "maxSession": 5,
+    "port": 5556,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "ip"
+  }
+}
